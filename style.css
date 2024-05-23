@@ -1,0 +1,472 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  background-color:#181c28 ;
+}
+
+
+
+.navbar {
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  display: flex;
+  z-index: 9999999999999999999;
+  justify-content: space-between;
+  color: white;
+ background-color: rgba(24,28,40,0.8);
+}
+
+#menu {
+  margin-right: 5px;
+  position: fixed;
+  display: none;
+}
+
+nav ul li {
+  margin-right: 30px;
+  padding-top: 5px;
+  display:inline-block;
+  list-style: none;
+  margin-left: 10px;
+}
+
+a {
+  
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+
+.logo h2 a {
+  font-size: 40px;
+  color: #ee7639;
+}
+.container {
+  padding: 50px;
+}
+
+.main {
+  margin-top: 150px;
+}
+
+#menu {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.main h1 {
+  font-size: 60px;
+  color: white;
+}
+
+#judul {
+  font-size: 80px;
+  padding-bottom: 10px;
+  color:#ee7639 ;
+}
+
+
+button {
+  border: 1px solid #ee7639;
+padding: 5px 10px;
+  background-color:#ee7639 ;
+  font-size: 30px;
+  margin-top: 50px;
+  color: white;
+  border-radius: 10px;
+}
+
+
+#gambar  {
+  
+  width: 40%;
+  position: absolute;
+  top: 100px;
+  left: 650px;
+}
+
+
+/*responsif tablet */
+
+
+@media  (max-width:991px ) {
+  
+  
+  .contact-us,.information,.our-services,.menu-links {
+  padding-left: 5px;
+  text-align: left;
+  color: white;
+}
+  
+  
+  
+.link  {
+  justify-content: left;
+  margin-top: 350px;
+  display: flex;
+  flex-direction: column;
+justify-content: start;
+margin-right: 150px;
+}
+  
+  
+  
+.order {
+  margin-top: 250px;
+  justify-content: space-between;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+  
+  .menu {
+ margin-top: 200px;
+  color: #181c28;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+margin-right: 150px;
+}
+
+  
+  
+  
+.food {
+  background-color: white;
+  border-radius: 10px;
+ margin-top: 20px;
+padding: 30px;
+display: flex;
+}
+
+  
+  
+.about  .border h1 {
+  font-size: 50px;
+  color: white;
+}
+
+.border p {
+  font-size: 5px;
+}
+  
+#gmr2 {
+  width: 5px;
+  padding-bottom:20px;
+}
+
+  
+  
+  #gambar {
+    position: relative;
+    text-align: center;
+    align-items: center;
+    left: 0px;
+    width: 50%;
+  }
+  
+    #menu {
+      position: relative;
+    display: block;
+  }
+  
+  #mncl {
+    display: none;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+  text-align: left;
+margin-bottom: 80px;
+padding: 50px;
+padding-bottom: 100000px;
+  background-color:#ee7639 ;
+text-transform: capitalize;
+  padding-top: 50px;
+  transition: 0.2s ease all;
+  z-index: 999999999999999;
+  overflow: hidden;
+  }
+  
+  #mncl ul li {
+    display: block;
+    margin-bottom: 100px;
+    z-index: 80999;
+  }
+  
+}
+
+
+@media only screen and (max-width:767px){
+
+
+.menu {
+ margin-top: 200px;
+  color: #181c28;
+  
+}
+
+.food {
+  background-color: white;
+  border-radius: 10px;
+ /* margin-bottom: 20px;*/
+padding: 100px;
+display: flex;
+flex-direction: column;
+margin-left:5px;
+}
+
+.food h1 {
+  font-size: 15px;
+  color: #ee7639;
+}
+
+html body .container .menu .food .bd{
+width: 100px;
+text-align: center;
+align-items: center;
+justify-content: center;
+}
+
+
+.main {
+  margin-left: 15px;
+}
+#gmr2 {
+  width: 1000px;
+  opacity: 0.1;
+  position: absolute;
+  z-index: 0;
+}
+
+.border {
+  position: relative;
+  z-index: 9999;
+}
+#about {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#about .border p {
+  font-size: 10px;
+  margin-bottom: 20px;
+}
+
+#about .border h1 {
+  margin-bottom:20px;
+  font-size: 50px;
+}
+  
+  #about {
+    margin-top: 80px;
+  }
+  
+  #gambar {
+    width: 80%;
+  }
+  
+  #judul {
+    font-size: 50px;
+  }
+  .main h1 {
+    font-size: 30px;
+  }
+  
+  .container {
+    padding: 10px;
+  }
+  
+button {
+  margin-top: 5px;
+}
+  
+}
+
+
+
+ #mncl.active {
+  
+display: block;
+transition: 0.2s ease all;
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  text-transform: capitalize;
+}
+
+
+
+
+.about {
+  display: flex;
+  margin-top: 250px;
+margin-left: 20px;
+flex: 2;
+}
+
+
+#gmr2 {
+  width: 20%;
+  flex: 3;
+  padding-bottom:20px;
+}
+
+
+
+.border h1 {
+  font-size: 80px;
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+
+.border {
+  padding-top: 80px;
+}
+
+
+
+.menu {
+ margin-top: 200px;
+  color: #181c28;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+margin-right: 150px;
+}
+
+.food {
+  background-color: white;
+  border-radius: 10px;
+ /* margin-bottom: 20px;*/
+padding: 50px;
+margin-left: 60px;
+
+}
+
+.food h1 {
+  font-size: 50px;
+  margin-top: 50px;
+}
+
+
+.container .menu .food .bd {
+  width: 250px;
+  margin-right: 50px;
+  position: static;
+}
+
+
+
+.order {
+  margin-top: 250px;
+  justify-content: space-between;
+  text-align: center;
+  display: flex;
+}
+
+.order h1 {
+  font-size: 50px;
+  color: #ee7639;
+}
+
+.order img {
+  width: 100px;
+}
+
+.order1,.delivery,.order2 {
+  padding: 50px;
+}
+
+
+#jdl {
+}
+
+
+
+
+.link  {
+  text-align: center;
+  align-content: center;
+  align-items:center;
+  display: flex;
+  justify-content: center;
+  margin-top: 350px;
+}
+
+
+.link ul li {
+  list-style: none;
+  margin-bottom: 20px;
+  color: white;
+}
+
+
+.link ul {
+  margin-top: 20px;
+}
+
+
+.contact-us ul li a img {
+  background-color: white;
+  width: 20px;
+}
+
+
+.contact-us,.information,.our-services,.menu-links {
+  padding-left: 40px;
+  text-align: left;
+  color: white;
+}
+
+
+
+
+
+.footer  {
+  background-color: #ee7639;
+  position: relative;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  
+}
+
+
+.footer p{
+  justify-content: center;
+  text-align: center;
+  padding-top:5px ;
+  padding-bottom:5px;
+  font-size: 80%;
+}
+
+
+.footer a {
+  font-weight: bold;
+  color: black;
+  font-size: 80%;
+}
